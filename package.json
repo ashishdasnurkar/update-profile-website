@@ -1,0 +1,21 @@
+{
+  "name": "progressive-profile-demo",
+  "version": "1.0.0",
+  "description": "Auth0 User progressive profiling demo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Dasnurkar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "csurf": "^1.10.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  }
+}
