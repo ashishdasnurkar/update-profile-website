@@ -31,7 +31,7 @@ Now, this simple node webapp is just a replacement of `update-profile-website` w
 2. Clone this repo by running `git clone git@github.com:ashishdasnurkar/update-profile-website.git`
 3. Change into repo directory by running `cd update-profile-website`
 4. Now create a Heroku app by running `heroku create`. This will give a random name to your app and set up a git repo within Heroku where you can push the app source code.
-5. Push the app source code to Heroku to deploy it by running `git push heroku master`. This will install all required dependencied on Heroku in order to run the app and once successful, it will spit out the live url for your app. This is the url that you should use for `UPDATE_PROFILE_WEBSITE_URL` value in step#5 mentioned in earlier section
+5. Push the app source code to Heroku to deploy it by running `git push heroku master`. This will install all required dependencies on Heroku in order to run the app and once successful, it will spit out the live url for your app. This is the url that you should use for `UPDATE_PROFILE_WEBSITE_URL` value in step#5 mentioned in earlier section
 6. To complete the setup all you need to do now is to setup the required environment variables mentioned in step #4 above. You can do so by using Heroku CLI `heroku config:set AUTH0_DOMAIN=YOUR_TENANT_DOMAIN`.  Here `YOUR_TENANT_DOMAIN` refers to <YOUR_TENANT>.auth0.com or if you are using custom domain then <YOUR_CUSTOM_DOMAIN>
 
 ## How do I test if everything is working?
